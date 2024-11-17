@@ -15,7 +15,7 @@ This is a lightweight URL shortener application created using HTML, CSS, and Jav
  🔸 Shortening the URL: When the "Shorten" button is clicked, the JavaScript function processes the URL and generates a shortened version.
  🔸 Redirection: The shortened URL can be clicked, and the browser will redirect to the original URL.
 # Demo:
-Check out the live demo here: 
+Check out the live demo here: https://url-shortener-peach-three.vercel.app/
 
 # How to Use:
 Clone this repository to your local machine:
