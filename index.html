@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Short URL</h1>
+      <p class="subtitle">Paste the URL to be shortened</p>
+      <form id="urlForm" class="form">
+        <div class="input-group">
+          <input
+            type="url"
+            id="longUrl"
+            placeholder="Enter the link here"
+            required
+          />
+          <button type="submit" class="btn">Shorten URL</button>
+        </div>
+      </form>
+      <p class="description">
+        This Project was developed for college submission.<br />
+        URL shortener allows to create a shortened link making it easy to
+        share.<br />
+        <a href="https://www.linkedin.com/in/theadityanandan">LinkedIN</a>
+      </p>
+      <div id="shortenedUrls"></div>
+      <button id="clearUrls" class="clear-btn" style="display: none">
+        Clear All Shortened URLs
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/theadityanandan" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/adityanandancse" target="_blank">GitHub</a>
+        <a href="mailto:cse.adityanandan@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+</html>
